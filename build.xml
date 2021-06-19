@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="tools-node" default="build">
+	
+	<target name="build">
+		<get src="https://nodejs.org/dist/v14.17.1/node-v14.17.1-win-x64.zip" dest="node-v14.17.1-win-x64.zip" usetimestamp="true" />
+		<unzip src="node-v14.17.1-win-x64.zip" dest="." />
+	</target>
+	
+</project>
